@@ -1,0 +1,25 @@
+---
+title: "My_First_Push"
+output: html_document
+date: "2024-02-20"
+---
+
+
+
+```{r}
+
+library(tidyverse)
+
+quant_data <- rnorm(10, 0, 1)
+qual_data <- c("Of", "All", "The", "Souls", "I", "Have", "Encountered", "In", "My", "Travels")
+
+df <- tibble::as_tibble(cbind(quant_data, qual_data)) %>%
+  mutate(quant_data = as.numeric(paste0(quant_data, sep = "")))
+
+glimpse(df)
+
+```
+
+The quick brown fox jumped over the lazy dog.
+
+This is a second attempt push attempt for practise vibes 2 
