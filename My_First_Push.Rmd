@@ -26,4 +26,6 @@ This is a second attempt push attempt for practise vibes 2
 
 Practise vibes 3 
 
-#he
+# Order of commands for uploading to github (once working)
+
+Commit in environment, commit in pop out box, push in environment 
